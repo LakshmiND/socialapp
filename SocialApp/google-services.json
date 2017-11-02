@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "551959924271",
+    "project_id": "testcgapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551959924271:android:12437004e67a1e41",
+        "android_client_info": {
+          "package_name": "com.example.ldevarak.socialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551959924271-kinp24brrr9arre1fhs30ssb8msidem3.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "551959924271-vi02p3eed7vp2secoh79aj7i1qfplbq9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ldevarak.socialapp",
+            "certificate_hash": "b78a511138d4ecdfcb82c51c15baf702b3fcd1f4"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXqKibhp2xj2908uOodOK4xiwrywsX3Lc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

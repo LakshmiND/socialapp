@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_link"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Links" />
+
+        <item
+            android:id="@+id/nav_category"
+            android:enabled="true"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Category">
+            <menu>
+                <item
+                    android:id="@+id/nav_media"
+                    android:icon="@drawable/ic_home_black_24dp"
+                    android:title="Media" />
+                <item
+                    android:id="@+id/nav_education"
+                    android:icon="@drawable/ic_dashboard_black_24dp"
+                    android:title="Education" />
+                <item
+                    android:id="@+id/nav_ecomerce"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Ecomerce" />
+                <item
+                    android:id="@+id/nav_healthcare"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Health care" />
+                <item
+                    android:id="@+id/nav_personal"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Personal" />
+                <item
+                    android:id="@+id/nav_travel"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Travel" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Logout" />
+    </group>
+
+</menu>
